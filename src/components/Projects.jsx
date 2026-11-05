@@ -154,8 +154,10 @@ export default function Projects() {
     <section
       id="projects"
       ref={sectionRef}
-      className="w-full overflow-hidden py-24 md:py-0 md:h-screen md:flex md:flex-col md:justify-center md:pt-20 md:pb-6 border-t border-bone/10"
+      className="w-full overflow-hidden py-24 md:py-0 md:h-screen md:flex md:flex-col md:justify-center md:pt-20 md:pb-6 border-t border-bone/10 relative"
     >
+      {/* Anchor alias for #project (singular) */}
+      <span id="project" className="sr-only" aria-hidden="true" />
       {/* Header Row */}
       <div className="max-w-[1440px] w-full mx-auto px-5 md:px-10 mb-8 md:mb-10 flex flex-col md:flex-row md:items-end justify-between gap-4">
         <div>
