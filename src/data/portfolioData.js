@@ -84,7 +84,7 @@ export const projects = [
       "Full-stack web app that detects deepfake images and videos with EfficientNetB0, featuring user auth and an admin dashboard.",
     tags: ["TensorFlow", "Flask", "OpenCV"],
     year: "2026",
-    liveUrl: "https://github.com/Vyshu-coder/deepfake-detector",
+    liveUrl: "",
     githubUrl: "https://github.com/Vyshu-coder/deepfake-detector",
   },
   {
@@ -95,7 +95,7 @@ export const projects = [
       "End-to-end analytics pipeline with a Star Schema model, KPI modules, and a sales dashboard.",
     tags: ["Python", "SQL", "Power BI"],
     year: "2026",
-    liveUrl: "https://github.com/Vyshu-coder/sales-data-pipeline",
+    liveUrl: "",
     githubUrl: "https://github.com/Vyshu-coder/sales-data-pipeline",
   },
   {
@@ -106,7 +106,7 @@ export const projects = [
       "Exploratory analysis of 100k+ e-commerce orders to uncover sales and customer trends.",
     tags: ["Python", "Pandas", "Matplotlib"],
     year: "2026",
-    liveUrl: "https://github.com/Vyshu-coder/olist-eda-python",
+    liveUrl: "",
     githubUrl: "https://github.com/Vyshu-coder/olist-eda-python",
   },
   {
@@ -117,7 +117,7 @@ export const projects = [
       "NLP classifier that flags fake news articles with vectorization and logistic regression modeling.",
     tags: ["Python", "Scikit-learn", "NLP"],
     year: "2026",
-    liveUrl: "https://github.com/Vyshu-coder/fake-news-detection-ml-nlp",
+    liveUrl: "",
     githubUrl: "https://github.com/Vyshu-coder/fake-news-detection-ml-nlp",
   },
 ];

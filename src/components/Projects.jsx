@@ -75,25 +75,25 @@ function ProjectCard({ project }) {
 
         {/* Actions */}
         <div className="flex items-center gap-3 pt-2">
-          {project.liveUrl && (
-            <a
-              href={project.liveUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-signal text-ink hover:bg-bone font-mono text-[11px] font-semibold uppercase tracking-[0.2em] px-4 py-2.5 transition-colors inline-flex items-center gap-1.5"
-            >
-              <span>Live</span>
-              <span aria-hidden="true">↗</span>
-            </a>
-          )}
           {project.githubUrl && (
             <a
               href={project.githubUrl}
               target="_blank"
               rel="noopener noreferrer"
+              className="bg-signal text-ink hover:bg-bone font-mono text-[11px] font-semibold uppercase tracking-[0.2em] px-4 py-2.5 transition-colors inline-flex items-center gap-1.5"
+            >
+              <span>GitHub</span>
+              <span aria-hidden="true">↗</span>
+            </a>
+          )}
+          {project.liveUrl && (
+            <a
+              href={project.liveUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               className="border border-bone/30 text-bone hover:border-signal hover:text-signal font-mono text-[11px] font-semibold uppercase tracking-[0.2em] px-4 py-2.5 transition-colors inline-flex items-center gap-1.5"
             >
-              <span>Code</span>
+              <span>Live</span>
               <span aria-hidden="true">↗</span>
             </a>
           )}
