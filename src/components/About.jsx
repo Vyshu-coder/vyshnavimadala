@@ -96,7 +96,7 @@ export default function About() {
               {portraitUrl ? (
                 <img
                   src={portraitUrl}
-                  alt={`${personalInfo.name} — ${personalInfo.role}`}
+                  alt="Vyshnavi Madala — Data Analyst, TAP Academy student"
                   className="w-full h-full object-cover grayscale contrast-125 transition-transform duration-700 group-hover:scale-105"
                   loading="lazy"
                 />
