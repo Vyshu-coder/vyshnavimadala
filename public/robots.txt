@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://vyshnavimadala.vercel.app/sitemap.xml
+Sitemap: https://vyshnavimadala-portfolio.vercel.app/sitemap.xml
