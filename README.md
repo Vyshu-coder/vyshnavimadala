@@ -2,7 +2,7 @@
 
 Data Analyst and Machine Learning developer portfolio built with a dark, technical Signal HUD aesthetic.
 
-**Live site:** https://myportfolio-eight-beta-42.vercel.app/
+**Live site:** https://vyshnavimadala.vercel.app/
 
 Built during the placement training program at [TAP Academy](https://thetapacademy.com/) (full-stack development, AI and augmented reality training).
 
@@ -20,8 +20,8 @@ Built during the placement training program at [TAP Academy](https://thetapacade
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/Vyshu-coder/my_portfolio.git
-cd my_portfolio
+git clone https://github.com/Vyshu-coder/vyshnavi-madala-portfolio.git
+cd vyshnavi-madala-portfolio
 npm install
 ```
 
