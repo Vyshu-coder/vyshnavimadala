@@ -29,6 +29,7 @@ export const navLinks = [
   { label: "About", href: "#about" },
   { label: "Work", href: "#projects" },
   { label: "Journey", href: "#journey" },
+  { label: "Publications", href: "#publications" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -146,8 +147,21 @@ export const experience = [
   },
 ];
 
+export const publications = [
+  {
+    id: "pub-1",
+    title: "A Synergistic Approach to Real Time Text Translation and Speech Synthesis",
+    journal: "IJARESM",
+    date: "Jun 2024",
+    summary:
+      "Developed a multilingual system using Google Translate API and gTTS to enable real-time text translation and speech output across 15+ languages.",
+    tags: ["NLP", "Speech Synthesis", "Google Translate API", "gTTS"],
+    url: "https://www.ijaresm.com/a-synergistic-approach-to-real-time-text-translation-and-speech-synthesis",
+  },
+];
+
 export const contactContent = {
-  label: "04 / Contact",
+  label: "05 / Contact",
   heading: "Let's build something.",
   note: "Have a role, a project or a question? Send a message — I reply within a day.",
 };
