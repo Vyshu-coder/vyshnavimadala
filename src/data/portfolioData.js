@@ -35,6 +35,7 @@ export const navLinks = [
 
 export const heroContent = {
   eyebrow: "PORTFOLIO — 2026",
+  heading: "Hi, I'm Vyshnavi Madala",
   intro:
     "I turn complex data into actionable insights, intelligent ML systems, and scalable software applications—from SQL pipelines and dashboards to deployed AI predictions.",
   statusLines: [

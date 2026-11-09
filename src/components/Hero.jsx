@@ -9,10 +9,6 @@ export default function Hero() {
   const containerRef = useRef(null)
   const dividerRef = useRef(null)
 
-  const nameParts = (personalInfo.name || '').split(' ')
-  const firstName = nameParts[0] || ''
-  const restName = nameParts.slice(1).join(' ')
-
   useEffect(() => {
     const ctx = gsap.context(() => {
       const prefersReducedMotion = window.matchMedia(
@@ -67,20 +63,16 @@ export default function Hero() {
             </span>
           </div>
 
-          {/* Large Split Typography Name */}
+          {/* Homepage Heading: Hi, I'm Vyshnavi Madala */}
           <h1
             data-hero="fade"
-            className="text-[clamp(3.2rem,11vw,9.5rem)] font-bold uppercase leading-[0.88] tracking-[-0.04em] font-sans"
+            className="text-[clamp(2.75rem,7.5vw,5.5rem)] font-bold leading-[1.05] tracking-[-0.03em] font-sans text-bone"
           >
-            <div className="text-bone">
-              <ScrambleText text={firstName} trigger="mount" delay={200} />
-            </div>
-            <div
-              className="text-transparent"
-              style={{ WebkitTextStroke: '1.5px #e8e6df' }}
-            >
-              <ScrambleText text={restName} trigger="mount" delay={500} />
-            </div>
+            <ScrambleText
+              text={heroContent.heading || "Hi, I'm Vyshnavi Madala"}
+              trigger="mount"
+              delay={200}
+            />
           </h1>
 
           {/* Expanding Divider Line */}
