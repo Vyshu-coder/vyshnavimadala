@@ -6,12 +6,12 @@
 export const personalInfo = {
   name: "Vyshnavi Madala",
   brandName: "Vyshnavi Madala",
-  role: "AI / ML Engineer • Software Engineer • Data Analyst",
+  role: "Data Analyst • AI / ML Engineer • Software Engineer",
   city: "Nellore, AP",
   timezone: "Asia/Kolkata", // IANA timezone used by the live clock in the HUD
   email: "madalavyshnavi16@gmail.com",
   phone: "+91 7075348687",
-  availability: "Open to AI, ML, SWE & Data roles (Full-time & Internships)",
+  availability: "Open to Data, AI/ML & SWE roles (Full-time & Internships)",
 };
 
 export const academy = {
@@ -36,12 +36,12 @@ export const navLinks = [
 export const heroContent = {
   eyebrow: "PORTFOLIO — 2026",
   intro:
-    "I engineer intelligent ML systems, robust software applications, and analytics pipelines—transforming complex data into deployed, real-world solutions.",
+    "I turn complex data into actionable insights, intelligent ML systems, and scalable software applications—from SQL pipelines and dashboards to deployed AI predictions.",
   statusLines: [
+    "Analyzing data with Python & SQL",
     "Engineering AI & ML solutions",
     "Building full-stack & scalable software",
-    "Developing data & predictive pipelines",
-    "Open to AI, ML & SWE opportunities",
+    "Open to Data, AI/ML & SWE roles",
   ],
   ctaPrimary: { label: "View projects", href: "#projects" },
   ctaSecondary: { label: "Get in touch", href: "#contact" },
@@ -49,9 +49,9 @@ export const heroContent = {
 
 export const aboutContent = {
   label: "01 / About",
-  heading: "Engineering intelligent models, software & data solutions.",
+  heading: "Turning data into intelligence, software & practical solutions.",
   paragraph:
-    "I’m an AI and Data Science graduate (B.Tech, 2026) with hands-on experience spanning machine learning engineering, software development, and data analytics. From deploying deepfake detection models with 93.8% validation accuracy and publishing peer-reviewed research in NLP, to architecting analytics pipelines and full-stack web applications, I focus on building scalable, reliable solutions. Currently sharpening my full-stack and algorithmic problem-solving at TAP Academy to step into high-impact AI, ML, and Software Engineering roles.",
+    "I’m an AI and Data Science graduate (B.Tech, 2026) with hands-on experience spanning data analytics, machine learning engineering, and software development. From architecting sales analytics pipelines and interactive KPI dashboards to deploying deepfake detection models (93.8% validation accuracy) and publishing peer-reviewed research in NLP, I focus on building reliable, data-driven solutions. Currently sharpening my full-stack and algorithmic problem-solving at TAP Academy to step into high-impact Data Analyst, AI/ML, and Software Engineering roles.",
   stats: [
     { value: 7, suffix: "+", label: "Projects built" },
     { value: 93.8, suffix: "%", label: "Deepfake detection accuracy" },
