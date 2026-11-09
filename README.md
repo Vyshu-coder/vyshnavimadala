@@ -1,6 +1,6 @@
 # Vyshnavi Madala — Portfolio
 
-Data Analyst and Machine Learning developer portfolio built with a dark, technical Signal HUD aesthetic.
+AI/ML Engineer, Software Engineer, and Data Analyst developer portfolio built with a dark, technical Signal HUD aesthetic.
 
 **Live site:** https://vyshnavimadala-portfolio.vercel.app/
 

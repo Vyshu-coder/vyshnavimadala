@@ -6,12 +6,12 @@
 export const personalInfo = {
   name: "Vyshnavi Madala",
   brandName: "Vyshnavi Madala",
-  role: "Data Analyst",
+  role: "AI / ML Engineer • Software Engineer • Data Analyst",
   city: "Nellore, AP",
   timezone: "Asia/Kolkata", // IANA timezone used by the live clock in the HUD
   email: "madalavyshnavi16@gmail.com",
   phone: "+91 7075348687",
-  availability: "Open to Internships and full time roles",
+  availability: "Open to AI, ML, SWE & Data roles (Full-time & Internships)",
 };
 
 export const academy = {
@@ -35,11 +35,13 @@ export const navLinks = [
 
 export const heroContent = {
   eyebrow: "PORTFOLIO — 2026",
-  intro: "I turn data into insights and ML models, from SQL pipelines and dashboards to deployed predictions.",
+  intro:
+    "I engineer intelligent ML systems, robust software applications, and analytics pipelines—transforming complex data into deployed, real-world solutions.",
   statusLines: [
-    "Analyzing data with Python & SQL",
-    "Building ML models & dashboards",
-    "Open to Data & ML roles",
+    "Engineering AI & ML solutions",
+    "Building full-stack & scalable software",
+    "Developing data & predictive pipelines",
+    "Open to AI, ML & SWE opportunities",
   ],
   ctaPrimary: { label: "View projects", href: "#projects" },
   ctaSecondary: { label: "Get in touch", href: "#contact" },
@@ -47,9 +49,9 @@ export const heroContent = {
 
 export const aboutContent = {
   label: "01 / About",
-  heading: "Turning raw data into practical solutions.",
+  heading: "Engineering intelligent models, software & data solutions.",
   paragraph:
-    "I’m an AI and Data Science graduate (B.Tech, 2026) with hands-on experience in Python, SQL, and machine learning. I’ve built a sales data pipeline with a KPI dashboard and a deepfake detection model with 93.8% validation accuracy. Currently, I am sharpening my skills through the placement training program at TAP Academy to turn complex data into actionable business solutions.",
+    "I’m an AI and Data Science graduate (B.Tech, 2026) with hands-on experience spanning machine learning engineering, software development, and data analytics. From deploying deepfake detection models with 93.8% validation accuracy and publishing peer-reviewed research in NLP, to architecting analytics pipelines and full-stack web applications, I focus on building scalable, reliable solutions. Currently sharpening my full-stack and algorithmic problem-solving at TAP Academy to step into high-impact AI, ML, and Software Engineering roles.",
   stats: [
     { value: 7, suffix: "+", label: "Projects built" },
     { value: 93.8, suffix: "%", label: "Deepfake detection accuracy" },
@@ -60,19 +62,19 @@ export const aboutContent = {
 export const skillGroups = [
   {
     title: "Programming",
-    items: ["Python", "SQL"],
+    items: ["Python", "Java", "SQL", "JavaScript"],
   },
   {
     title: "AI & ML",
-    items: ["Machine Learning", "Deep Learning", "NLP", "Statistics"],
+    items: ["Machine Learning", "Deep Learning", "NLP", "TensorFlow"],
   },
   {
-    title: "Data & Analytics",
-    items: ["Pandas", "NumPy", "Power BI", "Data Visualization"],
+    title: "Software & Web",
+    items: ["Data Structures & Algorithms", "React.js", "REST APIs", "Flask"],
   },
   {
-    title: "Tools",
-    items: ["Git", "GitHub", "OpenCV"],
+    title: "Data & Tools",
+    items: ["Pandas", "NumPy", "Power BI", "Git & GitHub", "OpenCV"],
   },
 ];
 
